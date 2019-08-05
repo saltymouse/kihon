@@ -4,20 +4,20 @@
 
 > 快適・高速・モダンなWebフロント開発テンプレート。フレームワーク無し。ウェブ標準だけで。
 
-Don't over-complicate your styles! You probably don't need Bootstrap, Sass or other frameworks and tools to style your blog and landing page.  
+Don't over-complicate your styles! You probably don't need Bootstrap, Sass or other frameworks and tools to style your blog and demo page.  
 スタイルを考えすぎるな！ブログやランディングページを作る際にはBootstrapやSassなどのCSSフレームワークは多分不要。
 
 Modern web-standards are easy to use, widely supported, and have no network overhead (it's in the browser!)  
 最新のウェブ標準は使いやすくてよくサポートされている。しかも、すでにブラウザーに入っているため通信量はゼロ！
 
-Your browser comes with:  
+Did you know your browser can already do...?  
 ブラウザーの標準機能は下記以上：
-- Responsive toolset
-- Grid system
-- Flexible Layout
-- Variables
-- Dark mode
-- Stylish (system) fonts
+- Responsive design ([media-queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries))
+- Grid layouts ([CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout))
+- Flexible content ([Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox))
+- [Variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties)
+- [Dark mode](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme)
+- [Stylish (system) fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
 
 **Kihon** also demonstrates multi-lingual style targets.  
 言語によって違うスタイルを指定する技術は**キホン**にも入っている。
@@ -27,7 +27,7 @@ Your browser comes with:
  Project     | Uncompressed | Gzipped
 :------------|:-------------|:--------|
 Kihon  | ![](https://img.badgesize.io/saltymouse/kihon/master/kihon.css.svg) | ![](https://img.badgesize.io/saltymouse/kihon/master/kihon.css.svg?compression=gzip)
-Bootstrap |  ![](https://img.badgesize.io/twbs/bootstrap/master/dist/css/bootstrap.css.svg) | ![](https://img.badgesize.io/twbs/bootstrap/master/dist/css/bootstrap.css.svg?compression=gzip)
+Bootstrap |  ![](https://img.badgesize.io/twbs/bootstrap/master/dist/css/bootstrap.css.svg?color=orange) | ![](https://img.badgesize.io/twbs/bootstrap/master/dist/css/bootstrap.css.svg?compression=gzip&color=yellow)
 
 ### Browser support
 
