@@ -1,6 +1,6 @@
 :root {
   --c-neutral-one: whitesmoke;
-  --c-neutral-two: #333;
+  --c-neutral-two: #212121;
   --c-primary: #0074D9;
   --c-secondary: #001F3F;
   --c-accent: #FF4136;
@@ -41,7 +41,7 @@ body {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --c-neutral-one: #333;
+    --c-neutral-one: #212121;
     --c-neutral-two: whitesmoke;
   }
 }
