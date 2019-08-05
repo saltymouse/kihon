@@ -1,10 +1,14 @@
 :root {
-  --heading-text: #0074D9;
-  --body-text: #001F3F;
+  --c-neutral-one: whitesmoke;
+  --c-neutral-two: #333;
+  --c-primary: #0074D9;
+  --c-secondary: #001F3F;
+  --c-accent: #FF4136;
 }
 
 * {
   box-sizing: border-box;
+  border-radius: 0.2rem;
 }
 
 html,
@@ -13,8 +17,8 @@ body {
 }
 
 body {
-  background-color: WhiteSmoke;
-  color: #444;
+  background-color: var(--c-neutral-one);
+  color: var(--c-neutral-two);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
   display: flex;
   flex-flow: column;
@@ -35,20 +39,12 @@ body {
   font-family: "游ゴシック体", YuGothic, "ヒラギノ丸ゴ", "Hiragino Sans", "Yu Gothic UI", "Meiryo UI", "MS Gothic", Roboto, Noto, "Noto Sans CJK JP", sans-serif;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  body::after {
-    background-color: oldlace;
-    content: '';
-    display: block;
-    height: 100vh;
-    left: 0;
-    position: fixed;
-    pointer-events: none;
-    mix-blend-mode: difference;
-    top: 0;
-    width: 100vw;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-neutral-one: #333;
+    --c-neutral-two: whitesmoke;
   }
-} */
+}
 
 main {
   flex: 1 0 auto;
@@ -72,7 +68,7 @@ footer {
 h1,
 h2,
 h3 {
-  color: #333;
+  color: var(--c-neutral-two);
   line-height: 1.2;
   font-family: Athelas, Constantia, Georgia, serif;
 }
@@ -82,11 +78,21 @@ img {
 }
 
 a {
-  color: #2ECC40;
+  color: var(--c-accent);
 }
 
 pre,
 code {
-  color: #FF4136;
+  background-color: var(--c-neutral-two);
+  color: var(--c-accent);
   font-family: "Andale Mono", Consolas, monospace;
+}
+
+pre {
+  padding: 0.5rem 1rem;
+  white-space: pre-wrap;
+}
+
+code {
+  padding: 0.1rem 0.3rem;
 }
