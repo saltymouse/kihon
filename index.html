@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kihon</title>
+  <link rel="stylesheet" href="./kihon.css">
+</head>
+
+<body>
+  <header>
+    <h1>Kihon</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://github.com/saltymouse/kihon">GitHub</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h2>Kihon&#8202;—&#8202;styling from the ground up</h2>
+      <time datetime="2019-08-04">August 23, 2018</time> by saltymouse
+      <hr>
+      <p>You probably don't need Bootstrap/Tailwind/Sass and other frameworks and tools for your blog and landing-pages. So often we reach into the <code>yarn add bootstrap</code> package bucket without thinking of the transmission size down the line. Modern, standards-based CSS is capable of doing all the fancy things you probably want to do.</p>
+      <p>
+        There are a lot of minimalist CSS starters out there, but <em>Kihon</em> tries to strike a balance between minimal yet modern and usable. The page you're reading now is styled with <em>Kihon</em>.
+      </p>
+      <p>
+        <figure>
+          <img src="https://source.unsplash.com/Qiy4hr18aGs/900x500" alt="Pink & blue waves">
+          <figcaption>Bootstrap is about the same size as this image... which would you rather have?</figcaption>
+        </figure>
+      </p>
+
+      <h3>Overview</h3>
+      <p>
+        Take a peek at the <a href="https://github.com/saltymouse/kihon/blob/master/kihon.css">source-code</a> to follow along. It's only ~100 lines (one "page")!
+        <ul>
+          <li>Mobile-first (responsive)</li>
+          <li>Dark-mode</li>
+        </ul>
+      </p>
+      <p>
+
+      </p>
+      <p>
+        <em>Kihon</em> uses hand-picked colours for dark-mode, but if you're not in the colour-picking mood, you can always use the <code>mix-blend-mode</code> overlay hack.
+      </p>
+
+<pre>
+@media (prefers-color-scheme: dark) {
+  body::after {
+    background-color: oldlace;
+    content: '';
+    display: block;
+    height: 100vh;
+    left: 0;
+    position: fixed;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    top: 0;
+    width: 100vw;
+  }
+}
+</pre>
+
+    </article>
+  </main>
+  <footer>
+    <hr>
+    Colophon | Credits | Contact | <a href="./index-ja.html">日本語 (ja)</a>
+  </footer>
+</body>
+
+</html>
