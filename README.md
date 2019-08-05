@@ -39,4 +39,4 @@ Bootstrap |  ![](https://img.badgesize.io/twbs/bootstrap/master/dist/css/bootstr
 Ready to use for most blogs and landing pages. Hack away and keep it simple!  
 このままでブログやランディングページとして使える！カスタマイズする場合にはシンプルにしておけ！
 
-Inspired by the wonderfully subversive [motherfuckingwebsite.com](motherfuckingwebsite.com)
+Inspired by the wonderfully subversive [motherfuckingwebsite.com](http://motherfuckingwebsite.com)
