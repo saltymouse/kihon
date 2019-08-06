@@ -10,7 +10,7 @@ Modern web-standards are easy to use, widely supported, and have no network over
 
 With just a light dusting of CSS you can turn your basic HTML into an easy-to-read experience.
 
-> たった100行のCSSでHTMLページを読みやすいページに変換できる。
+> たった100行のCSSでHTMLページを読みやすいオシャレなページに変換できる。
 
 Kihon demonstrates the following modern techniques in under 800 bytes of CSS
 
@@ -23,7 +23,7 @@ Grid layouts / 2次元レイアウト | [CSS Grid](https://developer.mozilla.org
 Flexible content / 要素の配置を柔軟 | [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) | [L35](https://github.com/saltymouse/kihon/blob/master/kihon.css#L35-L39)
 Variables / 変数 | [Custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) | [L1](https://github.com/saltymouse/kihon/blob/master/kihon.css#L1-L3)
 Dark mode / ダークモード | [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) | [L8](https://github.com/saltymouse/kihon/blob/master/kihon.css#L8)
-Stylish (system) fonts / おしゃれなフォント（OS） | [system-ui](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) | [L25](https://github.com/saltymouse/kihon/blob/master/kihon.css#L25)
+Stylish (system) fonts / オシャレなフォント（OS） | [system-ui](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) | [L25](https://github.com/saltymouse/kihon/blob/master/kihon.css#L25)
 Multi-lingual style targets / 複数言語対応 | [:lang](https://developer.mozilla.org/en-US/docs/Web/CSS/:lang) | [L41](https://github.com/saltymouse/kihon/blob/master/kihon.css#L41)
 
 ### Size comparison
@@ -37,9 +37,9 @@ Bootstrap |  ![](https://img.badgesize.io/twbs/bootstrap/master/dist/css/bootstr
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari-ios/safari-ios_48x48.png" alt="iOS Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)</br>iOS Safari |
 | --------- | --------- | --------- | --------- | --------- |
-| IE11<sup>[1](#footnote-ie11)</sup> (not supported but looks fine), Edge 👍| 👍| 👍| 👍| 👍
+| IE11<sup>[1](#footnote-ie11)</sup>, Edge 👍| 👍| 👍| 👍| 👍
 
-> <sup name="footnote-ie11">1</sup>Remove CSS Variables for full IE11 support
+> <sup name="footnote-ie11">1</sup> Not supported but looks fine. Remove CSS Variables for full IE11 support.
 
 Ready to use for most blogs and landing pages. Hack away and keep it simple!  
 このままでブログやランディングページとして使える！カスタマイズする場合にはシンプルにしておけ！
