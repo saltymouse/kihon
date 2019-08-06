@@ -1,14 +1,17 @@
 :root {
   --c-neutral-one: whitesmoke;
   --c-neutral-two: #212121;
-  --c-primary: #0074D9;
-  --c-secondary: #001F3F;
-  --c-accent: #FF4136;
+  --c-neutral-three: #fff;
+  --c-accent: #3D9970;
 }
 
-* {
-  box-sizing: border-box;
-  border-radius: 0.2rem;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --c-neutral-one: #212121;
+    --c-neutral-two: whitesmoke;
+    --c-neutral-three: #111;
+    --c-accent: #01FF70;
+  }
 }
 
 html,
@@ -39,13 +42,6 @@ body {
   font-family: "游ゴシック体", YuGothic, "ヒラギノ丸ゴ", "Hiragino Sans", "Yu Gothic UI", "Meiryo UI", "MS Gothic", Roboto, Noto, "Noto Sans CJK JP", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --c-neutral-one: #212121;
-    --c-neutral-two: whitesmoke;
-  }
-}
-
 main {
   flex: 1 0 auto;
 }
@@ -61,14 +57,10 @@ nav {
   justify-content: space-around;
 }
 
-footer {
-  margin-top: auto;
-}
-
 h1,
 h2,
 h3 {
-  color: var(--c-neutral-two);
+  color: var(--c-accent);
   line-height: 1.2;
   font-family: Athelas, Constantia, Georgia, serif;
 }
@@ -81,9 +73,15 @@ a {
   color: var(--c-accent);
 }
 
+img,
 pre,
 code {
-  background-color: var(--c-neutral-two);
+  border-radius: 0.2rem;
+}
+
+pre,
+code {
+  background-color: var(--c-neutral-three);
   color: var(--c-accent);
   font-family: "Andale Mono", Consolas, monospace;
 }
