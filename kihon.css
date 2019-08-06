@@ -48,13 +48,13 @@ main {
 
 header,
 footer {
-  padding: 0.5rem 0;
   text-align: center;
 }
 
 nav {
   display: flex;
   justify-content: space-around;
+  padding: 0.8rem 0;
 }
 
 h1,
