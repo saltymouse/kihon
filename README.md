@@ -23,7 +23,7 @@ Grid layouts / 2次元レイアウト | [CSS Grid](https://developer.mozilla.org
 Flexible content / 要素の配置を柔軟 | [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) | [L35](https://github.com/saltymouse/kihon/blob/master/kihon.css#L35-L39)
 Variables / 変数 | [Custom properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) | [L1](https://github.com/saltymouse/kihon/blob/master/kihon.css#L1-L3)
 Dark mode / ダークモード | [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) | [L8](https://github.com/saltymouse/kihon/blob/master/kihon.css#L8)
-Stylish (system) fonts | [system-ui](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) | [L25](https://github.com/saltymouse/kihon/blob/master/kihon.css#L25)
+Stylish (system) fonts / おしゃれなフォント（OS） | [system-ui](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family) | [L25](https://github.com/saltymouse/kihon/blob/master/kihon.css#L25)
 Multi-lingual style targets / 複数言語対応 | [:lang](https://developer.mozilla.org/en-US/docs/Web/CSS/:lang) | [L41](https://github.com/saltymouse/kihon/blob/master/kihon.css#L41)
 
 ### Size comparison
